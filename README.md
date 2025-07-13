@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Music World
+
+A modern web application built with Next.js 15, featuring a responsive and interactive user interface.
+
+## Features
+
+- Modern UI components using Material-UI v7
+- Interactive animations with Framer Motion
+- Data visualization with Recharts
+- TypeScript for type safety
+- TailwindCSS for styling
+- React Intersection Observer for scroll-based interactions
+
+## Tech Stack
+
+- **Framework**: Next.js 15.3.4
+- **UI Components**: Material-UI v7
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
+- **Charts**: Recharts
+- **Styling**: TailwindCSS
+- **Type Safety**: TypeScript
+- **Linting**: ESLint
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Development
+
+Start the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build and Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build the application for production:
 
-## Learn More
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+# or
+yarn start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Development Guidelines
 
-## Deploy on Vercel
+- Use TypeScript for all new components
+- Follow Material-UI styling conventions
+- Use Framer Motion for animations
+- Keep components modular and reusable
+- Follow ESLint rules
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the LICENSE file for details.
